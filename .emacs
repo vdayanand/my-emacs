@@ -31,7 +31,6 @@
 (setq auto-save-default nil) ; stop creating #autosave# files
 (setq-default indent-tabs-mode nil)
 
-
 (add-hook 'before-save-hook 'whitespace-cleanup)
 (setq x-select-enable-clipboard t)
 (defun copy-from-osx ()
@@ -44,3 +43,16 @@
 
 (setq interprogram-cut-function 'paste-to-osx)
 (setq interprogram-paste-function 'copy-from-osx)
+
+(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
+
+;; Add Lua-mode
+(unless (require 'el-get nil 'noerror)
+  (with-current-buffer
+      (url-retrieve-synchronously
+       "https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
+    (goto-char (point-max))
+    (eval-print-last-sexp)))
+
+(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
+(el-get 'sync)
