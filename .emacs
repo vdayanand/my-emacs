@@ -69,3 +69,15 @@
    ;; '("melpa" . "http://stable.melpa.org/packages/") ; many packages won't show if using stable
    '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
+
+(require 'auto-complete)
+(package-initialize)  ;load and activate packages, including auto-complete
+
+(ac-config-default)
+(global-auto-complete-mode t)
+
+(add-to-list 'ac-modes 'julia-mode)
+
+(defun auto-complete-mode-maybe ()
+  "No maybe for you. Only AC!"
+  (auto-complete-mode 1))
