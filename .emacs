@@ -18,8 +18,10 @@
  '(custom-enabled-themes (quote (ahungry)))
  '(custom-safe-themes
    (quote
-    ("27b97024320d223cbe0eb73104f2be8fcc55bd2c299723fc61d20057f313b51c" default)))
- '(package-selected-packages (quote (auto-complete ## auto-correct ahungry-theme))))
+    ("2593436c53c59d650c8e3b5337a45f0e1542b1ba46ce8956861316e860b145a0" "6efd825514e246fceed89d41eb06084f9d0881d45355c51dcff01c639489c4a5" "27b97024320d223cbe0eb73104f2be8fcc55bd2c299723fc61d20057f313b51c" default)))
+ '(package-selected-packages
+   (quote
+    (dakrone-theme web-mode dockerfile-mode auto-complete ## auto-correct ahungry-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
