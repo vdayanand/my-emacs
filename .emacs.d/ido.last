@@ -1,0 +1,49 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/vdayanan/code/mess/" . ".ipynb_checkpoints/")
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/" . "MuxApp/")
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/" . "common/")
+ ("/Users/vdayanan/code/JuliaTeam/" . "teamserver/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/vdayanan/code/jtdev/teamserver/common/frontend/src/components/"
+ "/Users/vdayanan/code/mess/"
+ "/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "PrivateRegistryConf.vue"
+ "sample.jl"
+ "MuxApp.jl"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/vdayanan/code/jtdev/teamserver/common/frontend/src/components/" (23558 27603 543583 549000) "navitem.vue" "Widget.vue" "DownloadsTable.vue" "header.vue" "HTTPProxyConf.vue" "Graph.vue" "Packages.vue" "AdminPanel.vue" "ActivityTable.vue" "PrivateRegistryConf.vue" "Registries.vue" "JuliaPro.vue" "Dashboard.vue" "JCRegistryConf.vue" "navbar.vue" "RegistryFilterTable.vue" "../" "./")
+
+ ("/Users/vdayanan/code/mess/.ipynb_checkpoints/" (23447 21136 336879 837000) "10. Tools - Minimizing functions - how a computer learns-checkpoint.ipynb" "04. Julia is fast-checkpoint.ipynb" "Untitled-checkpoint.ipynb" "../" "./")
+
+ ("/Users/vdayanan/code/mess/" (23532 8202 325094 371000) "mello/" "hello/" ".ipynb_checkpoints/" "nbgrader_config.py" ".#sample.jl" "jull/" "release/" "sample.jl" "cs101/" "10. Tools - Minimizing functions - how a computer learns.ipynb" "source/" "Untitled.ipynb" "gradebook.db" ".nbgrader.log" "04. Julia is fast.ipynb" "../" "./")
+
+ ("/Users/vdayanan/" (23532 8071 533380 769000) "src/" "s.tgz" "Analyse.ipynb" ".enthought/" "BioInformatics.jl" "JuliaPro-1.0.0.1_build-348.sh" "AnacondaProjects/" "rosalond_dna.txt" "WebIO.jl/" ".canopy/" "sample.txt" ".conda/" "my.org~" "08 - Recommender_System.ipynb" "lua-5.3.5/" "01 - Basics.ipynb" ".viminfo" ".bash_history" "cst.sh" ".sample.jl.swp" ".putty/" "02 - Plotting in Julia.ipynb" "hello.lox" "repo/" "05 - Interactive Widgets.ipynb" "notebooks/" "Lightworks/" "my.org" "02.Tools-Using-arrays-to-store-data.html.tgz" ".travis.yml" ".junorc.jl" ".gitconfig" "hello.sh~" ".cache/" ".python_history" "Downloads/" "alpha/" "stripe.org" "data/" ".oh-my-zsh/" ".Xauthority" ".bash_profiler" ".emacs.bkp" "virtualenv/" ".bash_profile" "r.rb" ".spacemacs" ".hyper.js" ".vscode/" "TokenManager/" "MyEnv/" "MWE.ipynb" "00 - Start Tutorial.ipynb" "nbg.org" ".ngrok2/" "Documents/" ".zcompdump-Venkatesh’s MacBook Air-5.3" "Pkg3.jl/" ".npm/" "cd/" ".swo" ".jupyter/" ".ipynb_checkpoints/" "mydevboxes/" "jp17.sql" "stripe.org~" ".Trash/" ".emacs.d.bak/" "06 - Metaprogramming.ipynb" ".emacs~" "02.Tools-Using-arrays-to-store-data.html" "v0.6/" "lib/" "WebiO http dump/" ".profile" ".bashdb_hist" "Applications/" ".emacs" "token.toml" "sample" "Vagrantfile" "Movies/" ".ssh/" ".rustup/" "loaduser.jl" "jp16.sql" "diffs/" "id_rsa2.pub" "req.txt" "julia.txt" "c_prog/" "lua-5.3.5.tar.gz" ".anaconda/" "packages/" "MarkovChains.jl/" ".jlassetregistry.json" "jp15.sql" "sampler/" "homework/" "stripe.org_archive" ".sample.py.swo" ".gitignore" "projs/" ".bash_profile-anaconda3.bak" ".hyper_plugins/" "JuliaPro" "github/" "logs/" "hello.sh" "Public/" ".bash_profile-anaconda2.bak" "enthought/" "a.out" "10 - Character recognition with knn.ipynb" "mnt/" "pay.org" "untitled.txt" ".bash_sessions/" ".bash_it/" ".cups/" "Grading.mp4" ".gitignore_global" "03 - Multiple Dispatch.ipynb" ".wacom/" ".android/" ".cargo/" "README.md" ".emacs.d/" "02.Tools-Using-arrays-to-store-data.ipynb" ".enstaller4rc" "Simple/" "contrib/" "sample.c" "jlprojs/" "rosalind_rna.txt" "Grading_SA.mp4" "s" ".lesshst" "trash/" "BioInformatics.jl~" ".matplotlib/" "compiled/" "cody/" "Library/" "Desktop/" "r.rb~" ".ipython/" "bundle/" ".zsh_history" "loaduser.jl.2" ".julia_history" ".vagrant/" ".gnome2/" "code/" ".MCTranscodingSDK/" "white," "REQUIRE" "myjulia/" "cst_l.sh" "id_rsa.pub" ".atom/" "nbg/" "nbg.org~" ".multirust/" ".pylint.d/" "Pictures/" "rosalind_revc.txt" ".local/" "environments/" "07 - Deep learning in Julia.ipynb" ".swp" ".bash_profile~" ".zshrc" "id_rsa2" "cst_l.sh~" ".bashrc" "Example.jl/" ".subversion/" "hee.ss" "config/" ".vagrant.d/" "lox/" "banana2.png" "pay.org~" "banana3.png" ".hyper.js~" ".wget-hsts" ".hgignore_global" "Assignment_create_submit.mp4" ".stCommitMsg" ".CFUserTextEncoding" "09 - ScikitLearn .ipynb" "VirtualBox VMs/" "JuliaPro-0.6.3.1_build-432.pkg" ".zshrc~" "registries/" "juliateam_test_key" ".DS_Store" "go/" ".vim/" ".sample.py.swp" "tasks/" ".canopy_runtimes.json" ".node-gyp/" "temp/" "parallel/" ".nbgrader.log" "ed.hup" ".spyder/" ".openshot_qt/" ".docker/" "rosalond_dnx.txt" ".bash_profile.bak" "juno_startup.jl" "clones/" ".condarc" "req_2.txt" ".gitkraken/" ".eshell/" ".julia/" "04 - Calling C and Python.ipynb" "mess/" "Music/" ".config/" "02.Tools-Using-arrays-to-store-data-1.html" ".packer.d/" "../" "./")
+
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/" (23532 2714 98241 634000) "users.jl" "packages.jl" "genconfigmain.jl" "readactivity.sh~" "MuxApp.jl~" "readactivity.sh" "users.jl~" "genconfig.jl" "utils.jl" "readactivity.jl" "MuxApp.jl" "../" "./")
+
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/" (23532 2714 71542 641000) "src/" "Project.toml" "db/" "Manifest.toml" "ui/" "../" "./")
+
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/" (23532 2714 116973 167000) "run_muxapp.sh" "static-login/" "sh/" "lua/" "#run_muxapp.sh#" "MuxApp/" "frontend/" "../" "./")
+
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/" (23525 23706 68137 937000) "common/" "local/" "../" "./")
+
+ ("/Users/vdayanan/code/JuliaTeam/" (23525 23705 962711 693000) ".git/" "Project.toml" "cacheServer/" "common/" "CredentialsHandler/" "teamserver/" "pkgserver/" "authserver/" "Manifest.toml" "LICENSE.md" "../" "./")
+
+ ("/Users/vdayanan/code/" (23530 46121 720197 852000) "src/" "stripe-payments-demo/" "WebIO.jl/" "Homework.jl/" "logparse/" "atom-julia-client/" "python-fire/" "mynginx.conf" "git/" "notebooks/" ".travis.yml" "mypack/" "data/" "envs/" "LICENSE.txt" "JuliaBoxTutorials/" "notebook/" "test2/" "kscope/" "logutils/" "InteractBase.jl/" "dex/" "packages/" "examples/" "JuliaTeam2/" "test_dir/" "xv6-public/" ".gitignore" "Pkg-private/" "JuliaPro/" "dev.zip" "appveyor.yml" "docker-bugzilla-dev/" "WebSockets.jl/" "JuliaRun.jl/" "README.md" "JuliaBoxNg/" "my-emacs/" "contrib/" "nbgrader-0.5.4/" "myreact/" "test.py" "Kafka.jl/" "HTTP.jl/" "sample.jl" "Pkg.jl/" "JC_private/" "REQUIRE" "IRTM.jl/" "MyEnvs/" "JuliaTeamnew/" "newenv/" "JPkg.jl/" "TypeScript/" "Juno.jl/" "bash-it.wiki/" "juliabox_db/" "JuliaProUI/" "form.jl" "example/" "Dockerfile" "test_pane.jl" "Untitledjl" "stripe-python/" "sampl.jl" "delim.jl" "Atom.jl/" "today/" "Observables.jl/" "test/" "xv6-book/" "JSExpr.jl/" "JTOML.jl/" "CircuitscapeUI.jl/" ".DS_Store" "Tetris.jl/" "JuliaTeam/" "JuliaPro-0.6.3.1_build-414.sh" "samplw.jl" "#Julia#" "JuliaRunClient.jl/" "500k/" "mess/" "JuliaBoxNG_grd/" "atom-ink/" "benchmark/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
