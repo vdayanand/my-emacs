@@ -3,7 +3,7 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
-
+(show-paren-mode 1)
 (add-to-list 'load-path "/Users/vdayanan/Documents/")
 (require 'julia-mode)
 (custom-set-variables
