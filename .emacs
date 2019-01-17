@@ -1,4 +1,4 @@
-;; Added by Package.el.  This must come before configurations of
+;95;0c;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
@@ -21,7 +21,7 @@
     ("152c9642180cb0907bfe7c343ed07d0586c0d84fd8e7279d90566088989a13bb" "3e160974b9e3e1b53270d1fb5bbaf56f0c689017e177972f72584bf096efc4cc" "aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" "28fa7536c8f563c6d6296989937a8e87a2dc6477fd7b366e0336a8997a521094" "2593436c53c59d650c8e3b5337a45f0e1542b1ba46ce8956861316e860b145a0" "6efd825514e246fceed89d41eb06084f9d0881d45355c51dcff01c639489c4a5" "27b97024320d223cbe0eb73104f2be8fcc55bd2c299723fc61d20057f313b51c" default)))
  '(package-selected-packages
    (quote
-    (julia-mode helm dashboard inkpot-theme firecode-theme dracula-theme vue-mode dakrone-theme web-mode dockerfile-mode auto-complete ## auto-correct ahungry-theme))))
+    (bm julia-mode helm dashboard inkpot-theme firecode-theme dracula-theme vue-mode dakrone-theme web-mode dockerfile-mode auto-complete ## auto-correct ahungry-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -86,3 +86,8 @@
 
 (require 'dashboard)
 (dashboard-setup-startup-hook)
+
+(require 'bm)
+(global-set-key (kbd "<C-q>") 'bm-toggle)
+(global-set-key (kbd "<q>")   'bm-next)
+(global-set-key (kbd "<S-q>") 'bm-previous)

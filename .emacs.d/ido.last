@@ -2,6 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/" . "src/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/" . "src/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" . "CredentialsHandler/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/" . "v1.0/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/" . "src/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/" . "julia/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/" . "etc/")
  ("/Users/vdayanan/code/mess/" . ".ipynb_checkpoints/")
  ("/Users/vdayanan/code/JuliaTeam/teamserver/common/" . "MuxApp/")
  ("/Users/vdayanan/code/JuliaTeam/teamserver/" . "common/")
@@ -10,20 +17,74 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/"
+ "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/src/"
+ "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/"
+ "/Users/vdayanan/code/Pkg-private/Pkg/src/"
+ "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/src/"
+ "/Users/vdayanan/code/jtdev/teamserver/common/MuxApp/src/"
  "/Users/vdayanan/code/jtdev/teamserver/common/frontend/src/components/"
  "/Users/vdayanan/code/mess/"
- "/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "PrivateRegistryConf.vue"
- "sample.jl"
+ "dbutils.jl"
+ "syncpackages.jl"
+ "packages.jl"
+ "readactivity.jl"
  "MuxApp.jl"
+ "CredentialsHandler.jl"
+ "startup.jl"
+ "Operations.jl"
+ "Types.jl"
+ "PrivateRegistryConf.vue"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/" (23616 22305 988292 444000) "httputils.jl" "activity.jl" "packages.jl" "dbutils.jl" "genconfigmain.jl" "readactivity.sh~" "MuxApp.jl~" "users.jl~" "refreshjuliapro.jl" "genconfig.jl" "admin.jl" "readactivity.jl" "syncpackages.jl" "licensesrv.rb" "MuxApp.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/src/" (23616 14662 688016 189000) "CredentialsHandler.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/src/" (23616 16043 96571 200000) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" "resolve/" "Pkg2/" "versions.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/" (23616 13889 460246 900000) "startup.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" (23616 12410 453673 361000) "Pkg/" "SparseArrays/" "FileWatching/" "Logging/" "SuiteSparse/" "Future/" "TokenManager/" "Random/" "LibGit2/" "LinearAlgebra/" "SHA/" "UUIDs/" "JPkg/" "DelimitedFiles/" "HTTP/" "Profile/" "BinaryProvider/" "SharedArrays/" "InteractiveUtils/" "CredentialsHandler/" "Printf/" "MbedTLS/" "REPL/" "Base64/" "Serialization/" "Markdown/" "Distributed/" "Mmap/" "Unicode/" "Test/" "Sockets/" "Dates/" "IniFile/" "TOML/" "CRC32c/" "CredentialsHandler2/" "Statistics/" "Libdl/" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler2/" (23616 12410 459256 873000) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler2/src/" (23616 14184 877809 400000) "CredentialsHandler.jl" "../" "./")
+
+ ("/Users/vdayanan/code/jtdev/" (23596 30461 666881 782000) ".git/" "Project.toml" "cacheServer/" ".gitignore" "common/" "CredentialsHandler/" "teamserver/" "pkgserver/" "authserver/" "Manifest.toml" "LICENSE.md" "../" "./")
+
+ ("/Users/vdayanan/code/jtdev/CredentialsHandler/" (23596 30461 1493 548000) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
+
+ ("/Users/vdayanan/code/jtdev/CredentialsHandler/src/" (23616 14109 960231 478000) "CredentialsHandler.jl" "../" "./")
+
+ ("/Users/vdayanan/code/Pkg-private/Pkg/src/" (23613 49459 488044 30000) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" ".swp" "resolve/" "bl" "Pkg2/" "versions.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/" (23608 32310 546072 232000) "src/" ".travis.yml" "bors.toml" ".git/" "Project.toml" ".gitignore" "appveyor.yml" "README.md" "docs/" "ext/" "Compat.toml" "CHANGELOG.md" "bin/" "test/" ".codecov.yml" "LICENSE.md" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/src/" (23607 3716 0 0) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" "resolve/" "Pkg2/" "versions.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/" (23607 3716 0 0) "src/" ".travis.yml" "bors.toml" ".git" "Project.toml" ".gitignore" "appveyor.yml" "README.md" "docs/" "ext/" "Compat.toml" "CHANGELOG.md" "bin/" "test/" ".codecov.yml" "LICENSE.md" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/" (23607 3686 0 0) "julia/" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/" (23608 32386 969211 804000) "share/" "lib/" "local/" "etc/" "include/" "bin/" "LICENSE.md" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/" (23607 3718 0 0) "julia/" "doc/" "applications/" "icons/" "appdata/" "man/" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/" (23607 3717 0 0) "base/" "stdlib/" "cert.pem" "build_sysimg.jl" "test/" "base.cache" "julia-config.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/" (23607 3701 0 0) "v1.0/" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/" (23607 3702 0 0) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
+
+ ("/Users/vdayanan/code/jtdev/teamserver/common/MuxApp/src/" (23613 53913 754908 482000) "httputils.jl" "activity.jl" "packages.jl" "dbutils.jl" "genconfigmain.jl" "genconfig.jl" "admin.jl" "readactivity.jl" "syncpackages.jl" "licensesrv.rb" "MuxApp.jl" "../" "./")
+
  ("/Users/vdayanan/code/jtdev/teamserver/common/frontend/src/components/" (23558 27603 543583 549000) "navitem.vue" "Widget.vue" "DownloadsTable.vue" "header.vue" "HTTPProxyConf.vue" "Graph.vue" "Packages.vue" "AdminPanel.vue" "ActivityTable.vue" "PrivateRegistryConf.vue" "Registries.vue" "JuliaPro.vue" "Dashboard.vue" "JCRegistryConf.vue" "navbar.vue" "RegistryFilterTable.vue" "../" "./")
 
  ("/Users/vdayanan/code/mess/.ipynb_checkpoints/" (23447 21136 336879 837000) "10. Tools - Minimizing functions - how a computer learns-checkpoint.ipynb" "04. Julia is fast-checkpoint.ipynb" "Untitled-checkpoint.ipynb" "../" "./")
@@ -31,8 +92,6 @@
  ("/Users/vdayanan/code/mess/" (23532 8202 325094 371000) "mello/" "hello/" ".ipynb_checkpoints/" "nbgrader_config.py" ".#sample.jl" "jull/" "release/" "sample.jl" "cs101/" "10. Tools - Minimizing functions - how a computer learns.ipynb" "source/" "Untitled.ipynb" "gradebook.db" ".nbgrader.log" "04. Julia is fast.ipynb" "../" "./")
 
  ("/Users/vdayanan/" (23532 8071 533380 769000) "src/" "s.tgz" "Analyse.ipynb" ".enthought/" "BioInformatics.jl" "JuliaPro-1.0.0.1_build-348.sh" "AnacondaProjects/" "rosalond_dna.txt" "WebIO.jl/" ".canopy/" "sample.txt" ".conda/" "my.org~" "08 - Recommender_System.ipynb" "lua-5.3.5/" "01 - Basics.ipynb" ".viminfo" ".bash_history" "cst.sh" ".sample.jl.swp" ".putty/" "02 - Plotting in Julia.ipynb" "hello.lox" "repo/" "05 - Interactive Widgets.ipynb" "notebooks/" "Lightworks/" "my.org" "02.Tools-Using-arrays-to-store-data.html.tgz" ".travis.yml" ".junorc.jl" ".gitconfig" "hello.sh~" ".cache/" ".python_history" "Downloads/" "alpha/" "stripe.org" "data/" ".oh-my-zsh/" ".Xauthority" ".bash_profiler" ".emacs.bkp" "virtualenv/" ".bash_profile" "r.rb" ".spacemacs" ".hyper.js" ".vscode/" "TokenManager/" "MyEnv/" "MWE.ipynb" "00 - Start Tutorial.ipynb" "nbg.org" ".ngrok2/" "Documents/" ".zcompdump-Venkatesh’s MacBook Air-5.3" "Pkg3.jl/" ".npm/" "cd/" ".swo" ".jupyter/" ".ipynb_checkpoints/" "mydevboxes/" "jp17.sql" "stripe.org~" ".Trash/" ".emacs.d.bak/" "06 - Metaprogramming.ipynb" ".emacs~" "02.Tools-Using-arrays-to-store-data.html" "v0.6/" "lib/" "WebiO http dump/" ".profile" ".bashdb_hist" "Applications/" ".emacs" "token.toml" "sample" "Vagrantfile" "Movies/" ".ssh/" ".rustup/" "loaduser.jl" "jp16.sql" "diffs/" "id_rsa2.pub" "req.txt" "julia.txt" "c_prog/" "lua-5.3.5.tar.gz" ".anaconda/" "packages/" "MarkovChains.jl/" ".jlassetregistry.json" "jp15.sql" "sampler/" "homework/" "stripe.org_archive" ".sample.py.swo" ".gitignore" "projs/" ".bash_profile-anaconda3.bak" ".hyper_plugins/" "JuliaPro" "github/" "logs/" "hello.sh" "Public/" ".bash_profile-anaconda2.bak" "enthought/" "a.out" "10 - Character recognition with knn.ipynb" "mnt/" "pay.org" "untitled.txt" ".bash_sessions/" ".bash_it/" ".cups/" "Grading.mp4" ".gitignore_global" "03 - Multiple Dispatch.ipynb" ".wacom/" ".android/" ".cargo/" "README.md" ".emacs.d/" "02.Tools-Using-arrays-to-store-data.ipynb" ".enstaller4rc" "Simple/" "contrib/" "sample.c" "jlprojs/" "rosalind_rna.txt" "Grading_SA.mp4" "s" ".lesshst" "trash/" "BioInformatics.jl~" ".matplotlib/" "compiled/" "cody/" "Library/" "Desktop/" "r.rb~" ".ipython/" "bundle/" ".zsh_history" "loaduser.jl.2" ".julia_history" ".vagrant/" ".gnome2/" "code/" ".MCTranscodingSDK/" "white," "REQUIRE" "myjulia/" "cst_l.sh" "id_rsa.pub" ".atom/" "nbg/" "nbg.org~" ".multirust/" ".pylint.d/" "Pictures/" "rosalind_revc.txt" ".local/" "environments/" "07 - Deep learning in Julia.ipynb" ".swp" ".bash_profile~" ".zshrc" "id_rsa2" "cst_l.sh~" ".bashrc" "Example.jl/" ".subversion/" "hee.ss" "config/" ".vagrant.d/" "lox/" "banana2.png" "pay.org~" "banana3.png" ".hyper.js~" ".wget-hsts" ".hgignore_global" "Assignment_create_submit.mp4" ".stCommitMsg" ".CFUserTextEncoding" "09 - ScikitLearn .ipynb" "VirtualBox VMs/" "JuliaPro-0.6.3.1_build-432.pkg" ".zshrc~" "registries/" "juliateam_test_key" ".DS_Store" "go/" ".vim/" ".sample.py.swp" "tasks/" ".canopy_runtimes.json" ".node-gyp/" "temp/" "parallel/" ".nbgrader.log" "ed.hup" ".spyder/" ".openshot_qt/" ".docker/" "rosalond_dnx.txt" ".bash_profile.bak" "juno_startup.jl" "clones/" ".condarc" "req_2.txt" ".gitkraken/" ".eshell/" ".julia/" "04 - Calling C and Python.ipynb" "mess/" "Music/" ".config/" "02.Tools-Using-arrays-to-store-data-1.html" ".packer.d/" "../" "./")
-
- ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/" (23532 2714 98241 634000) "users.jl" "packages.jl" "genconfigmain.jl" "readactivity.sh~" "MuxApp.jl~" "readactivity.sh" "users.jl~" "genconfig.jl" "utils.jl" "readactivity.jl" "MuxApp.jl" "../" "./")
 
  ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/" (23532 2714 71542 641000) "src/" "Project.toml" "db/" "Manifest.toml" "ui/" "../" "./")
 
