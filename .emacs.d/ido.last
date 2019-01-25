@@ -2,9 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/" . "src/")
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/" . "src/")
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" . "CredentialsHandler/")
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" . "JPkg/")
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/" . "v1.0/")
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/" . "src/")
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/" . "julia/")
@@ -17,11 +16,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/vdayanan/code/Juliateam/teamserver/common/frontend/src/components/"
+ "/Users/vdayanan/code/JuliaTeam/teamserver/common/frontend/src/components/"
  "/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/"
- "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/src/"
- "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/"
  "/Users/vdayanan/code/Pkg-private/Pkg/src/"
  "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/src/"
+ "/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/"
  "/Users/vdayanan/code/jtdev/teamserver/common/MuxApp/src/"
  "/Users/vdayanan/code/jtdev/teamserver/common/frontend/src/components/"
  "/Users/vdayanan/code/mess/"
@@ -29,47 +29,39 @@
 
 ;; ----- ido-work-file-list -----
 (
- "dbutils.jl"
- "syncpackages.jl"
- "packages.jl"
- "readactivity.jl"
- "MuxApp.jl"
- "CredentialsHandler.jl"
- "startup.jl"
+ "JCRegistryConf.vue"
+ "genconfig.jl"
+ "genconfigmain.jl"
+ "admin.jl"
  "Operations.jl"
  "Types.jl"
- "PrivateRegistryConf.vue"
+ "startup.jl"
+ "dbutils.jl"
+ "packages.jl"
+ "MuxApp.jl"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/" (23616 22305 988292 444000) "httputils.jl" "activity.jl" "packages.jl" "dbutils.jl" "genconfigmain.jl" "readactivity.sh~" "MuxApp.jl~" "users.jl~" "refreshjuliapro.jl" "genconfig.jl" "admin.jl" "readactivity.jl" "syncpackages.jl" "licensesrv.rb" "MuxApp.jl" "../" "./")
+ ("/Users/vdayanan/code/Juliateam/teamserver/common/frontend/src/components/" (23626 1296 897811 148000) "navitem.vue" "Widget.vue" "DownloadsTable.vue" "header.vue" "HTTPProxyConf.vue" "Graph.vue" "Packages.vue" "AdminPanel.vue" "ActivityTable.vue" "PrivateRegistryConf.vue" "Registries.vue" "JuliaPro.vue" "Dashboard.vue" "JCRegistryConf.vue" "navbar.vue" "RegistryFilterTable.vue" "../" "./")
 
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/src/" (23616 14662 688016 189000) "CredentialsHandler.jl" "../" "./")
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/frontend/src/components/" (23625 28346 368007 276000) "navitem.vue" "Widget.vue" "DownloadsTable.vue" "header.vue" "HTTPProxyConf.vue" "Graph.vue" "Packages.vue" "AdminPanel.vue" "ActivityTable.vue" "PrivateRegistryConf.vue" "Registries.vue" "JuliaPro.vue" "Dashboard.vue" "JCRegistryConf.vue" "navbar.vue" "RegistryFilterTable.vue" "../" "./")
 
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/src/" (23616 16043 96571 200000) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" "resolve/" "Pkg2/" "versions.jl" "../" "./")
-
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/" (23616 13889 460246 900000) "startup.jl" "../" "./")
-
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" (23616 12410 453673 361000) "Pkg/" "SparseArrays/" "FileWatching/" "Logging/" "SuiteSparse/" "Future/" "TokenManager/" "Random/" "LibGit2/" "LinearAlgebra/" "SHA/" "UUIDs/" "JPkg/" "DelimitedFiles/" "HTTP/" "Profile/" "BinaryProvider/" "SharedArrays/" "InteractiveUtils/" "CredentialsHandler/" "Printf/" "MbedTLS/" "REPL/" "Base64/" "Serialization/" "Markdown/" "Distributed/" "Mmap/" "Unicode/" "Test/" "Sockets/" "Dates/" "IniFile/" "TOML/" "CRC32c/" "CredentialsHandler2/" "Statistics/" "Libdl/" "../" "./")
-
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler2/" (23616 12410 459256 873000) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
-
- ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler2/src/" (23616 14184 877809 400000) "CredentialsHandler.jl" "../" "./")
-
- ("/Users/vdayanan/code/jtdev/" (23596 30461 666881 782000) ".git/" "Project.toml" "cacheServer/" ".gitignore" "common/" "CredentialsHandler/" "teamserver/" "pkgserver/" "authserver/" "Manifest.toml" "LICENSE.md" "../" "./")
-
- ("/Users/vdayanan/code/jtdev/CredentialsHandler/" (23596 30461 1493 548000) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
-
- ("/Users/vdayanan/code/jtdev/CredentialsHandler/src/" (23616 14109 960231 478000) "CredentialsHandler.jl" "../" "./")
+ ("/Users/vdayanan/code/JuliaTeam/teamserver/common/MuxApp/src/" (23625 31227 779281 503000) "httputils.jl" "activity.jl" "packages.jl" "dbutils.jl" "genconfigmain.jl" "readactivity.sh~" "MuxApp.jl~" "users.jl~" "refreshjuliapro.jl" "genconfig.jl" "admin.jl" "readactivity.jl" "syncpackages.jl" "licensesrv.rb" "MuxApp.jl" "../" "./")
 
  ("/Users/vdayanan/code/Pkg-private/Pkg/src/" (23613 49459 488044 30000) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" ".swp" "resolve/" "bl" "Pkg2/" "versions.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/src/" (23615 7428 520770 679000) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" "resolve/" "Pkg2/" "versions.jl" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/JPkg/" (23608 32310 546072 232000) "src/" ".travis.yml" "bors.toml" ".git/" "Project.toml" ".gitignore" "appveyor.yml" "README.md" "docs/" "ext/" "Compat.toml" "CHANGELOG.md" "bin/" "test/" ".codecov.yml" "LICENSE.md" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/src/" (23607 3716 0 0) "Resolve.jl" "generate.jl" "Types.jl" "Display.jl" "REPLMode.jl" "Registry.jl" "GitTools.jl" "Compress.jl" "Pkg.jl" "GraphType.jl" "API.jl" "Operations.jl" "resolve/" "Pkg2/" "versions.jl" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/Pkg/" (23607 3716 0 0) "src/" ".travis.yml" "bors.toml" ".git" "Project.toml" ".gitignore" "appveyor.yml" "README.md" "docs/" "ext/" "Compat.toml" "CHANGELOG.md" "bin/" "test/" ".codecov.yml" "LICENSE.md" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/src/" (23615 7597 553121 695000) "CredentialsHandler.jl" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/julia/" (23614 65292 318975 405000) "startup.jl" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/etc/" (23607 3686 0 0) "julia/" "../" "./")
 
@@ -80,6 +72,8 @@
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/" (23607 3717 0 0) "base/" "stdlib/" "cert.pem" "build_sysimg.jl" "test/" "base.cache" "julia-config.jl" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/" (23607 3701 0 0) "v1.0/" "../" "./")
+
+ ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/" (23608 32310 79066 918000) "Pkg/" "SparseArrays/" "FileWatching/" "Logging/" "SuiteSparse/" "Future/" "TokenManager/" "Random/" "LibGit2/" "LinearAlgebra/" "SHA/" "UUIDs/" "JPkg/" "DelimitedFiles/" "HTTP/" "Profile/" "BinaryProvider/" "SharedArrays/" "InteractiveUtils/" "CredentialsHandler/" "Printf/" "MbedTLS/" "REPL/" "Base64/" "Serialization/" "Markdown/" "Distributed/" "Mmap/" "Unicode/" "Test/" "Sockets/" "Dates/" "IniFile/" "TOML/" "CRC32c/" "Statistics/" "Libdl/" "../" "./")
 
  ("/Applications/JuliaPro-1.0.2.1.app/Contents/Resources/julia/Contents/Resources/julia/share/julia/stdlib/v1.0/CredentialsHandler/" (23607 3702 0 0) "src/" "Project.toml" ".gitignore" "test.tgz" "LICENSE.md" "../" "./")
 
